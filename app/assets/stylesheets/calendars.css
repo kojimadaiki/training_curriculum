@@ -1,8 +1,5 @@
-// Place all the styles related to the calendars controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
 body {
-  background-color: rgb(114, 151, 161);
+  background-color: #7297a1;
 }
 
 .calendar {
@@ -16,10 +13,10 @@ body {
 
 .item {
   margin: 0.5vw;
-  border: medium solid rgb(0, 0, 0);
+  border: medium solid black;
   width: 12vw;
   height: auto;
-  background-color: rgb(246, 253, 255);
+  background-color: #f6fdff;
 }
 
 .date {
@@ -28,7 +25,7 @@ body {
   font-size: 3vh;
   align-items: center;
   justify-content: center;
-  border-bottom: medium solid rgb(0, 0, 0);
+  border-bottom: medium solid black;
 }
 
 .content {
@@ -51,7 +48,7 @@ body {
 
 .label {
   font-size: 3vh;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .text-input {
